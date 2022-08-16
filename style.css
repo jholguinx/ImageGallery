@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
+:root{
+    font-family: 'Rajdhani', sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,6 @@ body {
     padding: 1rem;
     color: #3f3f3f;
     background-color: #ffffff;
-    font-family: 'Rajdhani', sans-serif;
 }
 
 header {
@@ -36,9 +37,9 @@ button{
     margin: 1rem;
     border-radius: 5px;
     border: 2px solid rgb(54, 53, 53);
-    padding: 0.5rem;
     background-color: rgb(54, 53, 53);
     color: white;
+    cursor: pointer;
 }
 .image{
     width: 100%;
