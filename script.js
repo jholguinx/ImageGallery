@@ -12,3 +12,12 @@ function getInputValue(){
       anchor.appendChild(imagen); 
       document.querySelector('.cards').appendChild(anchor);
 }
+function deleteChild() {
+      var myNode = document.querySelector(".cards");
+    
+      if (myNode.innerHTML === '') {
+      alert("No hay imágenes para eliminar");
+      } else {
+      myNode.removeChild(myNode.lastChild);}
+      
+    }
